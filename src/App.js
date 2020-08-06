@@ -1,9 +1,10 @@
 import React from 'react';
+import Sections from './components/sections';
 
 const App = () => {
   return (
     <div>
-      <h1>App</h1>
+      <Sections />
     </div>
   );
 };
