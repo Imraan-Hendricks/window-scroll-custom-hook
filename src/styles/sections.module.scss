@@ -13,6 +13,14 @@
   animation: fadeIn 0.3s ease-in;
 }
 
+.sectionBlue {
+  background-color: rgb(0, 162, 255);
+  -webkit-animation: fadeIn2 0.3s ease-in;
+  -moz-animation: fadeIn2 0.3s ease-in;
+  -o-animation: fadeIn2 0.3s ease-in;
+  animation: fadeIn2 0.3s ease-in;
+}
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -38,6 +46,39 @@
   }
 }
 @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn2 {
   0% {
     opacity: 0;
   }
