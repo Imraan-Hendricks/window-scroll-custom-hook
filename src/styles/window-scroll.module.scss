@@ -1,0 +1,33 @@
+.root {
+  position: fixed;
+  left: 5%;
+  top: 10%;
+  padding: 20px;
+  background-color: #000;
+  color: rgb(212, 212, 212);
+  z-index: 2;
+}
+
+.h1Top {
+  color: #57d35b;
+}
+
+.spanTop {
+  color: #57d35b;
+}
+
+.hrTop {
+  border-color: #57d35b;
+}
+
+.h1 {
+  color: rgb(0, 162, 255);
+}
+
+.span {
+  color: rgb(0, 162, 255);
+}
+
+.hr {
+  border-color: rgb(0, 162, 255);
+}
